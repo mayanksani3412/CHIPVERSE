@@ -1,8 +1,7 @@
 # 🚀 CHIPVERSE — Explore. Learn. Play. Level Up.
 
-<img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/b4139457-9685-43a5-a64c-0315446cc759" />
-
 <img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/0437e85b-862f-449b-aa02-e4590019eebe" />
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-CHIPVERSE-blueviolet" alt="Project">
@@ -13,6 +12,7 @@
   <img src="https://img.shields.io/badge/Authentication-Google%20OAuth-orange" alt="Google OAuth">
   <img src="https://img.shields.io/badge/Developer-Mayank%20Saini-black" alt="Developer">
 </p>
+
 
 ## 🌌 About CHIPVERSE
 
