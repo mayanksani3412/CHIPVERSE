@@ -32,7 +32,7 @@ Getting started with CHIPVERSE is simple.
 
 Visit the live CHIPVERSE website:
 
-**Live Game:** http://localhost:5175/
+**Live Game:** http://192.168.136.1:5173/
 
 If you are running the project locally, follow the installation instructions in the Development Setup section.
 
@@ -428,9 +428,6 @@ If you want to contribute:
 
 **Repository:** https://github.com/mayanksani3412/CHIPVERSE
 
-**Live Website:** http://localhost:5175/
+**Live Website:** http://192.168.136.1:5173
 
-\<p align="center">
-&#x20; \<strong>🚀 Welcome to CHIPVERSE!\</strong>\<br>
-&#x20; Explore New Worlds. Complete Missions. Earn XP. Level Up.
-\</p>
+
