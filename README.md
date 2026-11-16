@@ -1,10 +1,18 @@
 # 🚀 CHIPVERSE — Explore. Learn. Play. Level Up.
 
-\<p align="center">   \<strong>An Interactive Gaming Universe\</strong>\<br>   Explore different worlds, complete missions, earn XP, unlock achievements, and build your player profile. \</p>
+<img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/b4139457-9685-43a5-a64c-0315446cc759" />
 
-\<p align="center">   \<img src="docs/screenshots/chipverse-banner.png" alt="CHIPVERSE Banner" width="100%"> \</p>
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/0437e85b-862f-449b-aa02-e4590019eebe" />
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/Project-CHIPVERSE-blueviolet](https://img.shields.io/badge/Project-CHIPVERSE-blueviolet)" alt="Project">   \<img src="[https://img.shields.io/badge/Frontend-React-blue](https://img.shields.io/badge/Frontend-React-blue)" alt="React">   \<img src="[https://img.shields.io/badge/Build-Vite-purple](https://img.shields.io/badge/Build-Vite-purple)" alt="Vite">   \<img src="[https://img.shields.io/badge/Backend-Supabase-green](https://img.shields.io/badge/Backend-Supabase-green)" alt="Supabase">   \<img src="[https://img.shields.io/badge/Authentication-Secure-orange](https://img.shields.io/badge/Authentication-Secure-orange)" alt="Authentication"> \</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-CHIPVERSE-blueviolet" alt="Project">
+  <img src="https://img.shields.io/badge/Domain-VLSI-blue" alt="VLSI">
+  <img src="https://img.shields.io/badge/Frontend-React-blue" alt="React">
+  <img src="https://img.shields.io/badge/Build-Vite-purple" alt="Vite">
+  <img src="https://img.shields.io/badge/Backend-Supabase-green" alt="Supabase">
+  <img src="https://img.shields.io/badge/Authentication-Google%20OAuth-orange" alt="Google OAuth">
+  <img src="https://img.shields.io/badge/Developer-Mayank%20Saini-black" alt="Developer">
+</p>
 
 ## 🌌 About CHIPVERSE
 
