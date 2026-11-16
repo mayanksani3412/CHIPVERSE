@@ -1,196 +1,428 @@
-# CHIPVERSE
+# 🚀 CHIPVERSE — Explore. Learn. Play. Level Up.
 
-CHIPVERSE is a responsive VLSI engineering adventure game built with React, TypeScript, Vite, Three.js, and React Three Fiber. It uses Supabase Auth and PostgreSQL for player accounts and cloud profiles. Authentication requires project configuration; the app does not simulate sign-in when credentials are absent.
+\<p align="center">   \<strong>An Interactive Gaming Universe\</strong>\<br>   Explore different worlds, complete missions, earn XP, unlock achievements, and build your player profile. \</p>
 
-## Project folder structure
+\<p align="center">   \<img src="docs/screenshots/chipverse-banner.png" alt="CHIPVERSE Banner" width="100%"> \</p>
+
+\<p align="center">   \<img src="[https://img.shields.io/badge/Project-CHIPVERSE-blueviolet](https://img.shields.io/badge/Project-CHIPVERSE-blueviolet)" alt="Project">   \<img src="[https://img.shields.io/badge/Frontend-React-blue](https://img.shields.io/badge/Frontend-React-blue)" alt="React">   \<img src="[https://img.shields.io/badge/Build-Vite-purple](https://img.shields.io/badge/Build-Vite-purple)" alt="Vite">   \<img src="[https://img.shields.io/badge/Backend-Supabase-green](https://img.shields.io/badge/Backend-Supabase-green)" alt="Supabase">   \<img src="[https://img.shields.io/badge/Authentication-Secure-orange](https://img.shields.io/badge/Authentication-Secure-orange)" alt="Authentication"> \</p>
+
+## 🌌 About CHIPVERSE
+
+**CHIPVERSE** is an interactive web-based gaming project designed to provide an engaging digital experience through exploration, missions, achievements, and player progression.
+
+Players can create their own accounts, enter the CHIPVERSE universe, explore different sections, track their progress, earn experience points (XP), and manage their personal player profiles.
+
+The project combines an interactive frontend with backend services to provide authentication and persistent player data. Player progress and settings can be saved so that users can continue their journey even after refreshing the website or logging in again.
+
+CHIPVERSE aims to make the gaming experience more engaging through a structured player progression system and an interactive user interface.
+
+## 🎮 How to Play CHIPVERSE
+
+Getting started with CHIPVERSE is simple.
+
+### Step 1: Open the Game
+
+Visit the live CHIPVERSE website:
+
+**Live Game:** http://localhost:5175/
+
+If you are running the project locally, follow the installation instructions in the Development Setup section.
+
+### Step 2: Create Your Account
+
+- Open the CHIPVERSE website.
+- Navigate to the account or login page.
+- Choose **Create Account**.
+- Enter your required details.
+- Accept the account data notice.
+- Complete the registration process.
+
+You can also use **Continue with Google** if Google authentication is enabled.
+
+### Step 3: Sign In
+
+If you already have an account:
+
+- Open the Sign In section.
+- Enter your registered email or use Google Login.
+- Complete the authentication process.
+- Access your player account.
+
+### Step 4: Enter the Dashboard
+
+After successful login, you can access your CHIPVERSE dashboard.
+
+The dashboard acts as your main gaming area, where you can view your player information and navigate through the available sections.
+
+### Step 5: Explore the Universe
+
+Visit the **Universe** section to explore the available game universe and its worlds.
+
+Explore the available content and check which worlds or areas are unlocked for your player.
+
+### Step 6: Explore Labs and Missions
+
+Visit the **Labs** section to explore its available interactive content and activities.
+
+Complete the missions and activities provided in the game to make progress.
+
+### Step 7: Earn XP and Track Your Progress
+
+As you progress through the game, your player profile can track information such as:
+
+- Experience Points (XP)
+- Completed Missions
+- Unlocked Worlds
+- Achievements
+- Collectibles
+
+Your progress is associated with your account and can persist between sessions.
+
+### Step 8: Customize Your Settings
+
+Open the Settings section to manage the available player preferences.
+
+Your saved settings can remain available when you return to the game.
+
+**Start exploring, complete missions, and level up your CHIPVERSE journey!**
+
+## ✨ Key Features
+
+### 🔐 User Authentication
+
+- Create a new player account.
+- Sign in using email authentication.
+- Google Sign-In integration.
+- Secure account-based access.
+- Logout functionality.
+
+### 👤 Player Profile
+
+- Individual player profile.
+- Player information and avatar.
+- Player progression tracking.
+- Saved game-related information.
+- Persistent player data.
+
+### 🌍 Universe
+
+- Explore the CHIPVERSE universe.
+- View available worlds.
+- Track unlocked worlds.
+- Experience an interactive gaming environment.
+
+### 🧪 Labs
+
+- Dedicated Labs section.
+- Explore the available activities and interactive content.
+- Access the Labs area through the game dashboard.
+
+### ⭐ XP and Progression System
+
+- Track player experience points.
+- Maintain completed mission records.
+- Monitor player progression.
+- Track achievements and collectibles.
+
+### 🏆 Achievements and Collectibles
+
+- Maintain achievement records.
+- Track collected items.
+- View player accomplishments.
+
+### ⚙️ Settings
+
+- Manage available player settings.
+- Save preferences.
+- Retain settings across sessions.
+
+### ☁️ Cloud Data Persistence
+
+- Supabase backend integration.
+- Account-based player data.
+- Persistent profile information.
+- Saved game progress and settings.
+
+## 🖼️ Game Screenshots
+
+Here are some screenshots of the CHIPVERSE gaming experience.
+
+### 1. Account Creation and Login
+
+<img width="1906" height="941" alt="image" src="https://github.com/user-attachments/assets/e909349f-5381-4116-a19d-12c88b3dea87" />
+
+
+### 2. Player Dashboard
+
+<img width="1220" height="888" alt="image" src="https://github.com/user-attachments/assets/1f143059-b6b3-4a24-82fc-e8797e07caca" />
+
+
+### 3. Universe
+
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/a6545567-2187-4f1c-ad42-842b16b8b695" />
+
+
+### 4. Labs
+
+<img width="1215" height="532" alt="image" src="https://github.com/user-attachments/assets/483a9283-2483-492a-82f5-5e1b00ae9924" />
+
+
+### 5. Player Profile
+
+<img width="1919" height="820" alt="image" src="https://github.com/user-attachments/assets/e89277ae-b1cb-4142-85b0-88e2e68627e2" />
+
+
+### 6. Settings
+
+<img width="1113" height="235" alt="image" src="https://github.com/user-attachments/assets/9b43c0d9-6779-4a80-ad98-4384e59ca054" />
+
+## 🛠️ Technology Stack
+
+| Technology              | Purpose                             |
+| ----------------------- | ----------------------------------- |
+| React                   | Frontend user interface             |
+| Vite                    | Development server and build tool   |
+| JavaScript / TypeScript | Application development             |
+| Supabase                | Backend services and database       |
+| Supabase Authentication | User authentication                 |
+| Google OAuth            | Google Sign-In                      |
+| CSS                     | Interface styling                   |
+| Git and GitHub          | Version control and project hosting |
+
+*The exact technologies used in individual modules may vary according to the project implementation.*
+
+## 🏗️ Project Architecture
+
+CHIPVERSE uses a frontend and backend architecture.
+
+```text
+                 CHIPVERSE
+                     |
+          -----------------------
+          |                     |
+      Frontend              Backend
+          |                     |
+      React + Vite           Supabase
+          |                     |
+   ----------------       -------------
+   |      |       |       |           |
+Dashboard Universe Labs Authentication
+                              |
+                         Player Profiles
+                              |
+                         Game Progress
+```
+
+## 📂 Project Structure
+
+A simplified overview of the project structure:
 
 ```text
 CHIPVERSE/
-├─ backend/
-│  └─ server.js
-├─ supabase/
-│  ├─ config.toml
-│  ├─ functions/
-│  │  └─ delete-account/
-│  └─ migrations/
-├─ public/
-├─ src/
-│  ├─ auth/
-│  │  ├─ AccountScreen.tsx
-│  │  ├─ AuthContext.ts
-│  │  ├─ AuthProvider.tsx
-│  │  ├─ profileSync.ts
-│  │  └─ supabase.ts
-│  ├─ App.css
-│  ├─ App.tsx
-│  ├─ gameData.ts
-│  ├─ gameLogic.ts
-│  ├─ gameLogic.test.ts
-│  ├─ game/
-│  ├─ index.css
-│  ├─ main.tsx
-│  ├─ store.ts
-│  └─ assets/
-├─ .gitignore
-├─ .env.example
-├─ .oxlintrc.json
-├─ index.html
-├─ package.json
-├─ tsconfig.app.json
-├─ tsconfig.json
-├─ tsconfig.node.json
-├─ vite.config.ts
-├─ README.md
-└─ package-lock.json
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── context/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── docs/
+│   └── screenshots/
+│       ├── chipverse-banner.png
+│       ├── login.png
+│       ├── dashboard.png
+│       ├── universe.png
+│       ├── labs.png
+│       ├── profile.png
+│       └── settings.png
+│
+├── supabase/
+│   └── migrations/
+│
+├── package.json
+├── README.md
+└── vite.config.js
 ```
 
-## Implemented features
+*This is an illustrative structure. Your actual folders and filenames may differ.*
 
-- Cinematic landing page and intro-style hero section
-- Supabase-backed email/password, Google OAuth, and phone OTP account flows
-- Password recovery, secure sign-out, and account deletion through a verified Edge Function
-- Permanent server-generated `CV-MK-######` Player ID, with ID generation protected by a PostgreSQL sequence and profile update permissions
-- Owner-only cloud profile/progress reads and writes enforced by PostgreSQL row-level security
-- Optional consent-based import of saved local progress when creating an account
-- Player dashboard with cloud-synced XP, rank, level, and progress panels
-- Interactive Three.js universe map with eight distinct selectable planets, orbit, zoom, and world previews
-- Playable third-person Logic Land world with procedural engineer, bounded WASD/arrow movement, jumping, and camera drag
-- Touch movement joystick and touch camera pad for mobile
-- Five Logic Land checkpoints with live Boolean gate evaluation, inputs, truth tables, scoring, and one-time XP rewards
-- Clickable mission checkpoints, binary switches, and persistent energy-crystal collectibles
-- Mission briefings, completion results, pause/resume, and locally saved progress
-- Other seven planets are clearly labeled interactive previews, not playable worlds yet
-- Logic gate simulator lab
-- Circuit builder, Verilog arena, waveform viewer, FPGA lab, and physical design lab panels
-- Responsive layout for desktop and mobile screens
-- Local persistence via Zustand + localStorage as an offline cache
-- Small read-only Express health/worlds service; account and profile data use Supabase
-- Unit tests for progression, logic behavior, and consented local-progress merging
+## 💻 Development Setup
 
-## Universe worlds
+Want to run CHIPVERSE on your own computer? Follow these steps.
 
-The map contains all eight worlds: Logic Land, Circuit City, RTL Kingdom, Verification Zone, FPGA Planet, Silicon Factory, Physical Design World, and ChipVerse Core. **Logic Land is the only playable 3D world in this release.** The other planets can be selected and inspected but are marked preview-only.
+### Prerequisites
 
-## Playable Logic Land missions
+Make sure you have installed:
 
-1. Binary Gate Challenge — AND
-2. Logic Gate Builder — OR
-3. Truth Table Explorer — XOR
-4. Boolean Formula Puzzle — NAND
-5. De Morgan Boss Battle — NOR
+- Node.js
+- npm
+- Git
+- A code editor such as Visual Studio Code
+- A Supabase project with the required database and authentication configuration
 
-Each checkpoint asks the player to identify the correct gate, toggle inputs, observe its live output and truth table, and submit the circuit. First-time completion awards XP; replays do not award the same mission XP again. Collected crystals are saved as well.
+### 1. Clone the Repository
 
-## Controls
-
-- Universe: drag to orbit, scroll/pinch to zoom, click/tap a planet or use the world strip to select it
-- Desktop world controls: WASD or arrow keys to move, Space to jump, drag the scene to look, E or the prompt to interact, Escape to pause/close
-- Mobile world controls: drag the left virtual joystick to move, drag the right look pad to rotate the camera, and tap checkpoints/objects to interact
-- Game flow: use the top navigation for Intro, Profile, Dashboard, Universe, Labs, and Settings
-
-## Mobile gameplay instructions
-
-- Open the app in a mobile browser or responsive viewport.
-- Tap a planet or world selector in Universe; Logic Land is the playable world.
-- Tap **Land in Logic Land**, use the left joystick to approach a glowing checkpoint, and tap **Interact**.
-- In the challenge, choose a gate and inspect the live output/truth table; submit to complete the mission.
-- Tap the purple energy crystals to collect saved bonus XP.
-- Use the Labs tab to run mini interactive logic and design exercises.
-- Progress is saved locally and restored when the app reloads.
-
-## Backend and database instructions
-
-### Supabase setup (required for account features)
-
-1. Create a Supabase project.
-2. Copy `.env.example` to `.env.local` and set `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` from the project API settings. These are public client configuration values; **never put a service-role key in the Vite environment or frontend code**.
-3. Apply [`supabase/migrations/20261116000100_secure_player_profiles.sql`](./supabase/migrations/20261116000100_secure_player_profiles.sql) in the Supabase SQL Editor or with the Supabase CLI. It creates the profile table, own-row RLS policies, a database auth trigger, and a sequence-backed immutable Player ID. It also creates profiles for existing Auth users.
-4. In Supabase Auth, enable Email, Google, and Phone providers as needed. Configure email verification and password recovery templates, the SMS provider, the Site URL (`http://localhost:5173` for local development), and redirect allow-list entries such as `http://localhost:5173/account/**` plus your deployed origin. Configure Google OAuth client credentials in Supabase and use the Supabase callback URL shown by its dashboard in Google Cloud; configure SMS credentials only in the Supabase dashboard.
-5. Deploy account deletion with `supabase functions deploy delete-account` after linking the CLI to the project. The function verifies the caller's access token and deletes only that authenticated user's Supabase Auth record; the profile cascades with it. The service-role key remains in Supabase's function environment, never in the frontend.
-6. Restart Vite after changing `.env.local`. The provider URL and publishable/anon key are public client values; keep OAuth client secrets, SMTP/SMS credentials, and the Supabase service-role key in the provider/dashboard or server-side function environment only.
-
-Without these project settings, the app displays a setup notice and blocks protected game routes rather than offering fake authentication.
-
-### Optional read-only Express service
-
-`backend/server.js` provides only `GET /api/health` and `GET /api/worlds`. The unauthenticated SQLite profile and mission write endpoints have been removed; cloud identity and profiles are managed by Supabase.
-
-Run it with `npm run backend` if those read-only endpoints are needed.
-
-The Phase 1 cloud profile supports cross-device identity and progress persistence. XP/progress updates are still client-synchronized; authoritative anti-cheat validation of mission rewards is not part of this phase.
-
-## Run locally
-
-Use these exact commands from the project root:
+Open your terminal and run:
 
 ```bash
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+git clone https://github.com/mayanksani3412/CHIPVERSE
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd CHIPVERSE
+```
+
+### 3. Install Dependencies
+
+```bash
 npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file in the project root and add the Supabase configuration required by your application.
+
+For example, if your code uses these variable names:
+
+```env
+VITE_SUPABASE_URL=YOUR_SUPABASE_PROJECT_URL
+VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY
+```
+
+Use the exact environment variable names expected by your source code.
+
+**Important:** Never upload your Supabase service role key, private credentials, or Google OAuth client secret to GitHub.
+
+### 5. Start the Development Server
+
+```bash
 npm run dev
 ```
 
-Then open:
+### 6. Open CHIPVERSE
+
+Open the local URL displayed in your terminal. 
 
 ```text
-http://localhost:5173/
+http://localhost:5175/
 ```
 
-To start the backend server in a separate terminal:
+Your Vite server may select a different available port.
 
-```bash
-npm run backend
-```
+## 🔑 Supabase Configuration
 
-## Production build
+CHIPVERSE uses Supabase for backend services.
 
-```bash
-npm run build
-```
+To configure your own instance:
 
-Then preview the production build:
+1. Create a Supabase project.
+2. Configure the required database tables.
+3. Apply the database migration files included in the repository.
+4. Enable the authentication providers used by the application.
+5. Configure the required Google OAuth credentials if you want Google Sign-In.
+6. Add the correct environment variables to your local `.env` file.
+7. Configure the authentication redirect URLs for your local or deployed website.
 
-```bash
-npm run preview
-```
+Make sure the database schema and authentication configuration match the application code.
 
-## Phase 1 authentication configuration and validation
+## 🔒 Security
 
-Validation commands:
+- Authentication is handled through Supabase.
+- Player data is associated with authenticated accounts.
+- Database access should be protected using Row Level Security (RLS).
+- Users should only be allowed to access or modify their own player data.
+- Private API keys and service role credentials must never be exposed in frontend code or public repositories.
+- Environment variables should be configured securely.
 
-```bash
-npm test
-npm run lint
-npm run build
-```
+## 🚀 Deployment
 
-Latest results:
+CHIPVERSE can be deployed using a hosting platform such as Vercel.
 
-- TypeScript and the Vite production build pass; Oxlint passes.
-- All 11 Boolean, mission, progression, scoring, movement-control, and local-progress import tests pass.
-- The Express smoke test returned HTTP 200 for health/worlds and HTTP 404 for the removed unauthenticated profile write.
-- Browser inspection confirmed the no-credentials screen and that protected dashboard navigation returns to account setup.
-- Live signup, OAuth, SMS, cloud profile, and account deletion cannot be verified until a Supabase project and provider credentials are configured.
-- The currently running local Vite server does not have Supabase credentials loaded; restart it after creating `.env.local`.
+General deployment steps:
 
-## Known limitations
+1. Push the project to GitHub.
+2. Import the GitHub repository into Vercel.
+3. Configure the required environment variables.
+4. Build the project using the configured Vite build command.
+5. Deploy the application.
+6. Update the Supabase Site URL and Redirect URLs.
+7. Update the Google OAuth authorized origins and redirect configuration.
+8. Test registration, login, logout, and player data persistence on the live website.
 
-- The app is an educational game prototype, not a full industry-grade EDA or multiplayer platform.
-- Supabase auth/database features are integration-ready but not production-ready until providers, project URLs, and email/SMS settings are configured and tested.
-- A production deployment still needs published privacy/terms pages and associated user-data policy review.
-- XP and progress columns are owner-writable to support the existing game loop; server-authoritative reward validation is still required before trusting competitive rankings.
-- HDL compilation is intentionally marked as educational-only because no external compiler is installed.
-- Only Logic Land has playable 3D exploration and missions; the other seven worlds are previews.
-- The 3D scenes use procedural low-poly geometry and simplified boundaries rather than a full physics engine or external character assets.
+**Live Demo:** http://localhost:5175/
 
-## Next recommended improvements
+## 🧪 Testing Checklist
 
-- Add server-side validation for mission completion and XP changes.
-- Implement the remaining seven playable 3D worlds and their mission systems.
-- Add richer collision/physics and additional Boolean circuit-building objectives.
-- Add sound assets and polished audio manager.
-- Add stronger backend sync and leaderboard features.
-- Integrate real HDL compilers in an isolated sandbox environment.
+The following application flows have been tested during development:
 
-## License
+- [x] Google Login and Logout
+- [x] Email Account Creation and Login
+- [x] Player Profile Persistence
+- [x] XP and Player Progress Persistence
+- [x] Dashboard Navigation
+- [x] Universe Page
+- [x] Labs Page
+- [x] Settings Persistence
 
-Educational project prototype for CHIPVERSE. Not affiliated with any proprietary semiconductor company or copyrighted game franchise.
+## 🎯 Project Goals
+
+The main goals of CHIPVERSE are:
+
+- To create an interactive web-based gaming experience.
+- To provide account-based player progression.
+- To make exploration and missions engaging.
+- To maintain player data using backend services.
+- To provide a structured and expandable gaming environment.
+- To build a foundation for future game features and improvements.
+
+## 🔮 Future Enhancements
+
+Possible future improvements include:
+
+- More interactive worlds.
+- Additional missions and challenges.
+- New achievements and collectibles.
+- Advanced player progression and level systems.
+- Leaderboards and player rankings.
+- Multiplayer features.
+- More game activities and interactive Labs.
+- Improved animations and visual effects.
+- Mobile-responsive improvements.
+- Additional customization options.
+
+## 🤝 Contributing
+
+Contributions and suggestions are welcome.
+
+If you want to contribute:
+
+1. Fork this repository.
+2. Create a new feature branch.
+3. Make your changes.
+4. Test your changes.
+5. Submit a Pull Request with a description of your contribution.
+
+## 👨‍💻 Developer
+
+**Project Name:** CHIPVERSE
+
+**Project Type:** Interactive Web-Based Gaming Project
+
+**Frontend:** React + Vite
+
+**Backend:** Supabase
+
+**Repository:** https://github.com/mayanksani3412/CHIPVERSE
+
+**Live Website:** http://localhost:5175/
+
+\<p align="center">
+&#x20; \<strong>🚀 Welcome to CHIPVERSE!\</strong>\<br>
+&#x20; Explore New Worlds. Complete Missions. Earn XP. Level Up.
+\</p>
